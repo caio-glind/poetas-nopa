@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Poetas no top</title>
+</head>
+<body>
+    
+    <section class="banner"><header id="header">
+        <a id="logo" aria-expanded="false" href="">Poeta doidão</a>
+        <nav id="nav">
+            <button id="btn-mobile">menu
+                <span id="hamburger"></span>
+            </button>
+            <ul id="menu">
+                <li><a id="cd" href="/">Sobre</a></li>
+                <li><a id="cd"href="/">Produltos</a></li>
+                <li><a id="cd"href="/">Portifoliio</a></li>
+                <li><a id="cd"href="/">contado</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="intro">
+        <h1>Poeta Doidão</h1>
+        <p>Que toda loucura dos homens seja só poesia é que todo homem seja loco por poesia</p>
+    </div>
+    </section>
+
+
+    <section class="cotrudoP"></section>
+
+
+
+
+<script>
+ const btnmobile =document.getElementById('btn-mobile');
+
+function toggleMenu(event)
+{
+    if(event.type=== 'touchstart')event.preventDefault();
+
+    const nav =document.getElementById('nav');
+    nav.classList.toggle('active');
+    const active =nav.classList.contains('active');
+    event.currentTarget.setAttribute('aria-expanded', active)
+}
+
+
+btnmobile.addEventListener('click', toggleMenu);
+btnmobile.addEventListener('touchstart', toggleMenu);   
+</script>
+</body>
+</html>

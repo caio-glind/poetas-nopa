@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body
+{     
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;                                                                                                
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    background: #001;
+}
+
+
+body,ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover
+{
+    background:#f15;
+}
+#logo
+{
+    font-size: 1.5rem;
+font-weight: bold;
+}
+#header
+{
+    color: #fff;
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#menu
+{
+    color: #fff;
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+#menu a
+{
+    display: block;
+    padding: .5rem;
+
+}
+#btn-mobile{
+    display: none;
+}
+
+
+
+/*banner*/
+.banner{
+  
+    width: 100%;
+    height: 62.2ch;
+    background: url("https://portalgerais.com/wp-content/uploads/2015/05/chuva-e-choro-1280x720.png");
+    background-size:cover;
+}
+/*conteudo do banner*/
+.intro{
+    color: #fff;
+    text-align: center;
+
+}
+.intro h1{
+    font-size: 100px;
+}
+.intro p{
+    position: relative;
+    margin-top: -10ch;
+}
+
+
+
+
+@media (max-width:600px)
+{
+    #btn-mobile
+    {
+        display: block;
+        color: #fff;
+    }
+    #menu
+    {
+        display: block;
+        
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background: #e7e7e7;
+        height: 0px;
+        transition: .6s;
+        z-index: 1000px;
+        visibility: hidden;
+        overflow-y: hidden;
+
+    } 
+    #nav.active #menu
+    {
+        
+        
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    #menu a 
+    {
+        padding: 1rem 0;
+        margin:0 1rem;
+        border-bottom: 2px solid rgba(0, 0,0, .05);
+    }  
+    #btn-mobile{
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+    }
+    #hamburger
+    {
+        display: block;
+      width: 20px;
+      border-top:2px solid ;
+    }
+    #hamburger::after , #hamburger::before
+    {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background:currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+    #nav.active #hamburger
+    {
+       border-top-color: transparent;
+    }
+    #nav.active #hamburger::before
+    {
+       transform: rotate(135deg);
+    }
+    #nav.active #hamburger::after
+    {
+        transform: rotate(-135deg);
+        top: -7px;
+
+    }
+
+
+}
+
