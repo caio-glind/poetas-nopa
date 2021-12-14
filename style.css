@@ -6,7 +6,8 @@ body
     box-sizing: border-box;                                                                                                
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
-    background: #001;
+    background: #020412;
+    color: #e7e7e7;
 }
 
 
@@ -21,7 +22,7 @@ a{
 }
 a:hover
 {
-    background:#f15;
+    color:#f15;
 }
 #logo
 {
@@ -63,8 +64,8 @@ font-weight: bold;
   
     width: 100%;
     height: 62.2ch;
-    background: url("https://img.olhardigital.com.br/wp-content/uploads/2021/04/Gotas-de-chuva-1000x450.jpg");
-    background-size:cover;
+  
+   
 }
 /*conteudo do banner*/
 .intro{
@@ -76,10 +77,25 @@ font-weight: bold;
     font-size: 100px;
 }
 .intro p{
+   color:  #fff724;
     position: relative;
-    margin-top: -10ch;
+    margin-top: -5ch;
+    font-size: 30px;
 }
+.poemas{
+    display: flex;
+}
+.poemaA{
+    
+    margin-left: 2ch;
+    position: relative;
+   height: 30ch;
+    width: 70%;
 
+}
+.poemaA p{
+    text-align:left;
+}
 
 
 
@@ -101,21 +117,22 @@ font-weight: bold;
         background: #e7e7e7;
         height: 0px;
         transition: .6s;
-        z-index: 1000px;
+       
         visibility: hidden;
         overflow-y: hidden;
 
     } 
     #nav.active #menu
     {
-        
-        
+       
+        z-index: 1000px;
         height: calc(100vh - 70px);
         visibility: visible;
         overflow-y: auto;
     }
     #menu a 
     {
+        color: #001;
         padding: 1rem 0;
         margin:0 1rem;
         border-bottom: 2px solid rgba(0, 0,0, .05);
