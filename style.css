@@ -206,6 +206,7 @@ font-weight: bold;
 #bak img{
     position: relative;
     top: 2ch;
+    left: 0ch;
 }
 #bak p{
     position: relative;
@@ -265,6 +266,67 @@ font-weight: bold;
     top: -2ch;
     left: 1ch;
 }
+#autor{
+    position: relative;
+    left: -0.5ch;
+    width: auto;
+    
+}
+#autor button{
+    position: relative;
+    left: 5ch;
+
+}
+
+/*--------------poemas sobre a vida--------------------*/
+#vida{
+
+    
+    display: flex;
+    width: 100%;
+    height: 68ch;
+    background: #001;
+
+}
+
+#cardD{
+    position: relative;
+    top: 1ch;
+   left:15%;
+    
+    transform-style: preserve-3d;
+    justify-content: center;
+    display: flex;
+    transition: all 0.5s;
+}
+
+#cardE{
+    position: relative;
+    top: 1ch;
+   left:48%;
+    
+    transform-style: preserve-3d;
+    justify-content: center;
+    display: flex;
+    transition: all 0.5s;
+}
+#cardF{
+    position: relative;
+    top: 1ch;
+   left:80%;
+    
+    transform-style: preserve-3d;
+    justify-content: center;
+    display: flex;
+    transition: all 0.5s;
+}
+
+
+
+
+
+
+
 
 /*poema 2*/
 #poemasB{
@@ -394,7 +456,7 @@ font-weight: bold;
     .intro h1{
         font-size: 95px;
     }
-    
+     /*---------------------------------POEMAS SOBRE AMRO---------------------------------------------------------*/
     #amor{
         display: block;
         flex-direction:column;
@@ -440,9 +502,7 @@ font-weight: bold;
         width: 100%;
         height: 40ch;
     }
-    #autor{
-        left: 0.5ch;
-    }
+ 
     #coracao{
         position: relative;
         left: -1ch;
@@ -451,6 +511,64 @@ font-weight: bold;
         animation: voa 2s infinite;
         animation-direction: alternate-reverse;
     }
+
+    /*---------------------------------------POEMAS SOBRE A VIDA ----------------------------------------*/
+    #vida{
+
+        display: block;
+        flex-direction:column;
+        height: 210ch;
+        background: url("https://www.blogderocha.com.br/wp-content/uploads/2020/04/c13b438eb7484bc03a3361f1b3ce5c21.gif");
+    
+    }
+    
+    #cardD{
+        position: relative;
+        left: 0ch;
+        
+      
+    }
+    
+    #cardE{
+        position: relative;
+        top: 70ch;
+        left: 0ch;
+    }
+    #cardF{
+        position: relative;
+        top: 140ch;
+        left: 0ch;
+    }
+    #autor{
+        position: relative;
+        left: -4ch;
+        width: auto;
+        
+    }
+    #autor button{
+        position: relative;
+        left: 5ch;
+
+    }
+   /* .copyrightText{
+    position: absolute;
+    top: 987%;
+    background: #fff;
+    padding: 8px 40px;
+    border-top:1px solid rgba(0,0,0,0.1);
+
+   }*/
+   #poemasB{
+    background: url("https://64.media.tumblr.com/c75b292627784f7cce3085aa7361812d/d053a00611e2fb73-e0/s500x750/a42fc954e67461f1fb9a0f9c0610995c998eb0f8.gifv");
+    background-size: cover;
+    height: 123.5ch;
+  }
+
+
+
+
+
+
 
 }
 
