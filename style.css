@@ -461,7 +461,7 @@ font-weight: bold;
         display: block;
         flex-direction:column;
         height: 210ch;
-        background: url("https://www.blogderocha.com.br/wp-content/uploads/2020/04/c13b438eb7484bc03a3361f1b3ce5c21.gif");
+        background: url(img/bakC.gif);
         
     }
     #card{
@@ -518,7 +518,7 @@ font-weight: bold;
         display: block;
         flex-direction:column;
         height: 210ch;
-        background: url("https://www.blogderocha.com.br/wp-content/uploads/2020/04/c13b438eb7484bc03a3361f1b3ce5c21.gif");
+        background: url(img/bakC.gif);
     
     }
     
