@@ -288,45 +288,53 @@ font-weight: bold;
     background: #001;
 
 }
-
-#cardD{
-    position: relative;
-    top: 1ch;
-   left:15%;
-    
-    transform-style: preserve-3d;
-    justify-content: center;
-    display: flex;
-    transition: all 0.5s;
+.cardee{
+    margin: 2ch 5ch;
+    background: #e7e7e7;
+    width: 40ch;
+    height: 65ch;
+    color: #f15;
 }
+.cardee img{
+    width: 100%;
+    height: 25ch;
 
-#cardE{
-    position: relative;
-    top: 1ch;
-   left:48%;
-    
-    transform-style: preserve-3d;
-    justify-content: center;
-    display: flex;
-    transition: all 0.5s;
-}
-#cardF{
-    position: relative;
-    top: 1ch;
-   left:80%;
-    
-    transform-style: preserve-3d;
-    justify-content: center;
-    display: flex;
-    transition: all 0.5s;
 }
 
 
+.autor a{
+    color: #001;
+}
+
+.autor img{
+    height: 5ch;
+    width: 5ch;
+    border-radius: 50ch;
+}
+
+
+.autor button{
+    width: 20ch;
+    height: 5ch;
+    color: #002;
+    background:none;
+    border: solid 3px#002 ;
+    border-radius: 30px;
+    font-size: 18px;
+    transition-duration: 1s;
+}
 
 
 
-
-
+.autor button:hover{
+    width: 20ch;
+    height: 5ch;
+    color: #e7e7e7;
+    background: #002;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+}
 
 /*poema 2*/
 #poemasB{
@@ -455,8 +463,7 @@ font-weight: bold;
     }
     .intro h1{
         font-size: 95px;
-    }
-     /*---------------------------------POEMAS SOBRE AMRO---------------------------------------------------------*/
+    }/*MAS SOBRE AMRO---------------------------------------------------------*/
     #amor{
         display: block;
         flex-direction:column;
@@ -465,6 +472,7 @@ font-weight: bold;
         
     }
     #card{
+        
         position: relative;
         left: 0ch;
     }
@@ -517,38 +525,31 @@ font-weight: bold;
 
         display: block;
         flex-direction:column;
-        height: 210ch;
+        height: 310ch;
         background: url(img/bakC.gif);
     
     }
     
-    #cardD{
+    .cardee{
         position: relative;
-        left: 0ch;
-        
-      
+        top: 5ch;
+        margin-top: 5ch;
+        margin: 0.5ch ;
+        background: #e7e7e7;
+        width: 35ch;
+        height: 90ch;
+        color: #f15;
     }
-    
-    #cardE{
-        position: relative;
-        top: 70ch;
-        left: 0ch;
-    }
-    #cardF{
-        position: relative;
-        top: 140ch;
-        left: 0ch;
-    }
-    #autor{
-        position: relative;
-        left: -4ch;
-        width: auto;
-        
-    }
-    #autor button{
-        position: relative;
-        left: 5ch;
 
+    .cardee img{
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+    .autor button{
+        position: relative;
+        top: 1ch;
+        left: 2ch;
     }
    /* .copyrightText{
     position: absolute;
