@@ -4,7 +4,7 @@ body
     margin: 0;  
     padding: 0;
     box-sizing: border-box;                                                                                                
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     scroll-behavior: smooth;
     background: #f15;
     color: #e7e7e7;
@@ -84,6 +84,7 @@ font-weight: bold;
 }
 .intro h1{
     font-size: 100px;
+    
 }
 .intro p{
    color:  #fff724;
@@ -289,11 +290,12 @@ font-weight: bold;
 
 }
 .cardee{
-    margin: 2ch 5ch;
+    margin: 1.5ch 10ch;
     background: #e7e7e7;
     width: 40ch;
     height: 65ch;
     color: #f15;
+    box-shadow:0 5px 20px rgba(219, 9, 9, 0.5);
 }
 .cardee img{
     width: 100%;
@@ -557,7 +559,6 @@ font-weight: bold;
     background: #fff;
     padding: 8px 40px;
     border-top:1px solid rgba(0,0,0,0.1);
-
    }*/
    #poemasB{
     background: url("https://64.media.tumblr.com/c75b292627784f7cce3085aa7361812d/d053a00611e2fb73-e0/s500x750/a42fc954e67461f1fb9a0f9c0610995c998eb0f8.gifv");

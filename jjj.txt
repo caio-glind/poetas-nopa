@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-
     <title>Poetas no top</title>
 </head>
-
 <body>
-    <!--hdsyrfefgeryfg-->
+    <!--baner-->
     <section class="banner">
         <header id="header">
             <a id="logo" aria-expanded="false" href="">Poeta Doidão</a>
@@ -21,8 +18,8 @@
                 </button>
                 <ul id="menu">
                     <li><a id="cd" href="/">home</a></li>
-                    <li><a id="cd" href="#amor">Sobre a Amor</a></li>
-                    <li><a id="cd" href="#vida">Sobre a Vida</a></li>
+                    <li><a id="cd" href="#Amor">Amor</a></li>
+                    <li><a id="cd" href="/">Portifoliio</a></li>
                     <li><a id="cd" href="/">contado</a></li>
                 </ul>
             </nav>
@@ -32,9 +29,9 @@
             <p><span class="auto-input"></span></p>
         </div>
     </section>
+      <!--****************************POEMAS SOBRE AMOR***************************-->
     <h2>POEMAS DE AMOR</h2>
     <section id="amor" class="Amor">
-
         
         <div class="flip" id="card">
             <div class="face" id="front">
@@ -60,7 +57,6 @@
             <button id="b"><a href="https://pt.wikipedia.org/wiki/Clarice_Lispector">ver mais sobre oautor</a></button>
             </div>
             </div>
-
             
             <div class="flip" id="cardB">
                 <div class="face" id="front">
@@ -71,7 +67,6 @@
                         Por que você partiu,
                         Eu só queria entender
                         Por que eu me perdi.<br>
-
                         <br> Não consigo lembrar dos teus
                         Abraços sinceros,
                         Você me esqueceu tão rápido
@@ -83,10 +78,8 @@
                         Passa ,<br>
                         As tuas lembranças não te assustam e
                         Nem te fazem rasgar até sangrar.<br>
-
                         <br> Esse teu amor me destrói
                         É um falso amor. <br>
-
                         <br> Eu só queria entender
                         Por que você partiu,
                         Eu só queria entender
@@ -95,10 +88,8 @@
                      
                         <a id="nome"href="https://instagram.com/olhardepoesia6?utm_medium=copy_link"><img id="autor"src="img/gabriela.jpeg"alt="foto da   Gabriela Bonfanti">-Gabriela Bonfanti</a>
                     <button id="b"><a href="https://instagram.com/olhardepoesia6?utm_medium=copy_link">ver mais sobre o autor</a></button>
-
                 </div>
                 </div>
-
                 <div class="flip" id="cardC">
                     <div class="face" id="front">
                         <h1>Memória</h1>
@@ -127,89 +118,114 @@
                     </div>
                 </div>
               
-
-
+            
     </section>
+    <!--****************************POEMAS SOBRE a AVIDA***************************-->
     <h2>Poemas Sobre a Vida </h2>
     <section id="vida" class="poemasA">
-        <div class="cardee">
-            <img src="https://c.tenor.com/SxRYK7O8q6EAAAAM/labor-day.gif" alt="">
-            <h1>Quem Sabe um Dia</h1>
-            
-            <p>Quem sabe um dia
-                Quem sabe um seremos
-                Quem sabe um viveremos
-                Quem sabe um morreremos!<br>
-
-                <br>Quem é que
-                Quem é macho
-                Quem é fêmea
-                Quem é humano, apenas!
-                <br>
-                Sabe amar
-                Sabe de mim e de si
-                Sabe de nós
-                Sabe ser um!
-                <br>
-
-                <br>Um dia
-                Um mês
-                Um ano
-                Um(a) vida!. <br>
-                  
-                <div class="autor">
-                    <a href="https://pt.wikipedia.org/wiki/M%C3%A1rio_Quintana">-Mário Quintana</a>
-                    <br><a href="https://pt.wikipedia.org/wiki/M%C3%A1rio_Quintana"><button>ver mais sobre o autor</button></a>
-                </div>
-                
-            </p>
-        </div>
-        <br>
-
-        <div class="cardee">
-            <img src="https://i.gifer.com/Mdj4.gif" alt="">
-            <h1>Dialética</h1>            
-            <p>É claro que a vida é boa
-                E a alegria, a única indizível emoção
-                É claro que te acho linda
-                Em ti bendigo o amor das coisas simples
-                É claro que te amo
-                E tenho tudo para ser feliz
-                Mas acontece que eu sou triste...<br>
-
-            </p>
-            <div class="autor">
-            <a href="https://pt.wikipedia.org/wiki/Vinicius_de_Moraes">-Vinicius de Moraes</a>
-            <br><a href="https://pt.wikipedia.org/wiki/Vinicius_de_Moraes"><button>ver mais sobre o autor</button></a>
-             </div>
-        </div><br>
-        <div class="cardee">
-            <img src="https://thumbs.gfycat.com/BigheartedEnragedKoi-max-1mb.gif" alt="">
         
-            <h1>Brisa</h1>
 
-            <p>Vamos viver no Nordeste, Anarina.
-                Deixarei aqui meus amigos, meus livros, minhas riquezas, minha vergonha.
-                Deixarás aqui tua filha, tua avó, teu marido, teu amante.
-                Aqui faz muito calor.
-                No Nordeste faz calor também.
-                Mas lá tem brisa:
-                Vamos viver de brisa, Anarina.<br>
-            </p>
-            <div class="autor">
-                <a href="https://pt.wikipedia.org/wiki/Manuel_Bandeira">-Manuel Bandeira</a>
-                <br><a href="https://pt.wikipedia.org/wiki/Manuel_Bandeira"><button>ver mais sobre o autor</button></a>
+        <div class="flip" id="cardD">
+            <div class="face" id="front">
+                <h1>Memória</h1>
+            </div>
+            <div class="face" id="bak">
+                <p>Amar o perdido
+                    deixa confundido
+                    este coração..<br>
+
+                    <br> Nada pode o olvido
+                    contra o sem sentido
+                    apelo do Não.
+                    <br>
+                    As coisas tangíveis
+                    tornam-se insensíveis
+                    à palma da mão
+                    <br>
+
+                    <br>Mas as coisas findas
+                    muito mais que lindas,
+                    essas ficarão. <br>
+                </p>
+                <div id="autor">
+                <a id="nome"href="https://instagram.com/olhardepoesia6?utm_medium=copy_link"><img id="autor"src="img/gabriela.jpeg"alt="foto da  Gabriela Bonfanti">-Gabriela Bonfanti</a>
+                <button id="b"><a href="https://instagram.com/olhardepoesia6?utm_medium=copy_link">ver mais sobre o autor</a></button>
+               </div>
             </div>
         </div>
+	@@ -173,38 +177,22 @@ <h1>Memória</h1>
 
+        <div class="flip" id="cardE">
+             <div class="face" id="front">
+                 <h1>Teu falso amor</h1>
+             </div>
+            <div class="face" id="bak">
+                <p>Eu só queria entender
+                    Por que você partiu,
+                    Eu só queria entender
+                    Por que eu me perdi.<br>
 
+                    <br> Não consigo lembrar dos teus
+                    Abraços sinceros,
+                    Você me esqueceu tão rápido
+                    E já beija outras bocas
+                    Sem se lembrar da minha.
+                    Parece até que nunca nos
+                    Amamos ,<br>
+                    Na sua cabeça não sei o que
+                    Passa ,<br>
+                    As tuas lembranças não te assustam e
+                    Nem te fazem rasgar até sangrar.<br>
 
+                    <br> Esse teu amor me destrói
+                    É um falso amor. <br>
 
+                    <br> Eu só queria entender
+                    Por que você partiu,
+                    Eu só queria entender
+                    Por que eu me perdi.<br>
+                    <br>
+
+                    <div id="autor">
+                        <a id="nome"href="https://instagram.com/olhardepoesia6?utm_medium=copy_link"><img id="autor"src="img/gabriela.jpeg"alt="foto da   Gabriela Bonfanti">-Gabriela Bonfanti</a>
+                        <button id="b"><a href="https://instagram.com/olhardepoesia6?utm_medium=copy_link">ver mais sobre o autor</a></button>
+                    </div>    
+            </div>
+        </div>
+	@@ -214,29 +202,22 @@ <h1>Teu falso amor</h1>
+
+            <div class="flip" id="cardF">
+                <div class="face" id="front">
+                    <h1>Memória</h1>
+                </div>
+                <div class="face" id="bak">
+                    <p>Amar o perdido
+                        deixa confundido
+                        este coração..<br>
+
+                        <br> Nada pode o olvido
+                        contra o sem sentido
+                        apelo do Não.
+                        <br>
+                        As coisas tangíveis
+                        tornam-se insensíveis
+                        à palma da mão
+                        <br>
+
+                        <br>Mas as coisas findas
+                        muito mais que lindas,
+                        essas ficarão. <br>
+                    </p>
+                    <div id="autor">
+                    <a id="nome"href="https://instagram.com/olhardepoesia6?utm_medium=copy_link"><img id="autor"src="img/gabriela.jpeg"alt="foto da  Gabriela Bonfanti">-Gabriela Bonfanti</a>
+                    <button id="b"><a href="https://instagram.com/olhardepoesia6?utm_medium=copy_link">ver mais sobre o autor</a></button>
+                   </div>
+                </div>
+            </div>
     </section>
     <h2>Mar Português</h2>
     <section id="poemasB" class="poemasA">
         <div class="poemaA">
-
             <br>
             <p>Ó mar salgado, quanto do teu sal
                 São lágrimas de Portugal!
@@ -217,15 +233,12 @@
                 Quantos filhos em vão rezaram!
                 Quantas noivas ficaram por casar
                 Para que fosses nosso, ó mar!<br>
-
                 <br>Valeu a pena? Tudo vale a pena
                 Se a alma não é pequena.
                 Quem quer passar além do Bojador
                 Tem que passar além da dor.
                 Deus ao mar o perigo e o abismo deu,
                 Mas nele é que espelhou o céu<br>
-
-
                 <br><img id="autor" src="https://static.todamateria.com.br/upload/fe/rn/fernandopessoabiografia.jpg"
                     alt="imagem de clarissi lispector"><a id="nome"
                     href="https://pt.wikipedia.org/wiki/Fernando_Pessoa">-Fernando Pessoa</a>
@@ -233,58 +246,52 @@
         </div>
     </section>
     <div class="copyrightText">
-        <p>Copyright 2021 <a href="#">Caio R.Sousa</a>. All right Reserverd</p>
+        <p>Copyright 2021 <a href="#">Caio R.Sousa</a>.  All right Reserverd</p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <!--*******************muda o baner********************************-->
     <script>
-
         // efeito da cart aque vira 
         const carB = document.querySelector("#card")
         carB.addEventListener("click", () => {
             carB.classList.toggle('flip')
         })
-
         const carC = document.querySelector("#cardB")
         carC.addEventListener("click", () => {
             carC.classList.toggle('flip')
         })
-
-
-
         const carD = document.querySelector("#cardC")
         carD.addEventListener("click", () => {
             carD.classList.toggle('flip')
         })
-
-
-
-
-
+        const carE = document.querySelector("#cardD")
+        carE.addEventListener("click", () => {
+            carE.classList.toggle('flip')
+        })
+        const carG = document.querySelector("#cardE")
+        carG.addEventListener("click", () => {
+            carG.classList.toggle('flip')
+        })
+        const carH = document.querySelector("#cardF")
+        carH.addEventListener("click", () => {
+            carH.classList.toggle('flip')
+        })
         var typed = new Typed(".auto-input", {
             strings: ["Que toda loucura dos homens seja só poesia", "é que todo homem seja louco por poesia"],
             typeSpeed: 100,
             backSpeed: 100,
             loop: true
         })
-
-
-
         const btnmobile = document.getElementById('btn-mobile');
-
         function toggleMenu(event) {
             if (event.type === 'touchstart') event.preventDefault();
-
             const nav = document.getElementById('nav');
             nav.classList.toggle('active');
             const active = nav.classList.contains('active');
             event.currentTarget.setAttribute('aria-expanded', active)
         }
-
-
         btnmobile.addEventListener('click', toggleMenu);
         btnmobile.addEventListener('touchstart', toggleMenu);
     </script>
 </body>
-
 </html>

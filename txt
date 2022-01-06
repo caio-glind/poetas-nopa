@@ -1,0 +1,156 @@
+<h2>Poemas Sobre a Vida </h2>
+    <section id="vida" class="poemasA">
+        <div class="cardee">
+            <img src="https://c.tenor.com/SxRYK7O8q6EAAAAM/labor-day.gif" alt="">
+            <h1>Quem Sabe um Dia</h1>
+            
+            <p>Quem sabe um dia
+                Quem sabe um seremos
+                Quem sabe um viveremos
+                Quem sabe um morreremos!<br>
+
+                <br>Quem é que
+                Quem é macho
+                Quem é fêmea
+                Quem é humano, apenas!
+                <br>
+                Sabe amar
+                Sabe de mim e de si
+                Sabe de nós
+                Sabe ser um!
+                <br>
+
+                <br>Um dia
+                Um mês
+                Um ano
+                Um(a) vida!. <br>
+                  
+                <div class="autor">
+                    <a href="https://pt.wikipedia.org/wiki/M%C3%A1rio_Quintana">-Mário Quintana</a>
+                    <br><button>ver mais sobre o autor</button>
+                </div>
+                
+            </p>
+        </div>
+        <br>
+
+        <div class="cardee">
+            <img src="https://i.gifer.com/Mdj4.gif" alt="">
+            <h1>Dialética</h1>            
+            <p>EÉ claro que a vida é boa
+                E a alegria, a única indizível emoção
+                É claro que te acho linda
+                Em ti bendigo o amor das coisas simples
+                É claro que te amo
+                E tenho tudo para ser feliz
+                Mas acontece que eu sou triste...<br>
+
+            </p>
+            <div class="autor">
+            <a href="https://pt.wikipedia.org/wiki/Vinicius_de_Moraes">-Vinicius de Moraes</a>
+            <br><button>ver mais sobre o autor</button>
+             </div>
+        </div><br>
+        <div class="cardee">
+            <img src="https://thumbs.gfycat.com/BigheartedEnragedKoi-max-1mb.gif" alt="">
+        
+            <h1>Brisa</h1>
+
+            <p>Vamos viver no Nordeste, Anarina.
+                Deixarei aqui meus amigos, meus livros, minhas riquezas, minha vergonha.
+                Deixarás aqui tua filha, tua avó, teu marido, teu amante.
+                Aqui faz muito calor.
+                No Nordeste faz calor também.
+                Mas lá tem brisa:
+                Vamos viver de brisa, Anarina.<br>
+            </p>
+            <div class="autor">
+                <a href="https://pt.wikipedia.org/wiki/Manuel_Bandeira">-Manuel Bandeira</a>
+                <br><button>ver mais sobre o autor</button>
+            </div>
+        </div>
+        
+       <!--
+        <div class="flip" id="cardD">
+            <div class="face" id="front">
+                <h1>Quem Sabe um Dia</h1>
+            </div>
+            <div class="face" id="bak">
+                <p>Quem sabe um dia
+                    Quem sabe um seremos
+                    Quem sabe um viveremos
+                    Quem sabe um morreremos!<br>
+                    <br>Quem é que
+                    Quem é macho
+                    Quem é fêmea
+                    Quem é humano, apenas!
+                    <br>
+                    Sabe amar
+                    Sabe de mim e de si
+                    Sabe de nós
+                    Sabe ser um!
+                    <br>
+                    <br>Um dia
+                    Um mês
+                    Um ano
+                    Um(a) vida!. <br>
+                </p>
+                <div id="autor">
+                <a id="nome"href="https://pt.wikipedia.org/wiki/M%C3%A1rio_Quintana"><img id="autor"src="img/mario-quitan.jpg"alt="foto do  Mário Quintana">-Mário Quintana</a>
+                <button id="b"><a href="https://pt.wikipedia.org/wiki/M%C3%A1rio_Quintana">ver mais sobre o autor</a></button>
+               </div>
+            </div>
+        </div>
+        
+        <div class="flip" id="cardE">
+             <div class="face" id="front">
+                 <h1>Dialética</h1>
+             </div>
+            <div class="face" id="bak">
+                <p>EÉ claro que a vida é boa
+                    E a alegria, a única indizível emoção
+                    É claro que te acho linda
+                    Em ti bendigo o amor das coisas simples
+                    É claro que te amo
+                    E tenho tudo para ser feliz
+                    Mas acontece que eu sou triste...<br>
+                </p>
+                 
+                    <div id="autor">
+                        <a id="nome"href="https://pt.wikipedia.org/wiki/Vinicius_de_Moraes"><img id="autor"src="img/vinicius-morais.jpg"alt="foto da  Vinicius de Moraes">-Vinicius de Moraes</a>
+                        <button id="b"><a href="https://pt.wikipedia.org/wiki/Vinicius_de_Moraes">ver mais sobre o autor</a></button>
+                    </div>    
+            </div>
+        </div>
+            
+        
+        
+            <div class="flip" id="cardF">
+                <div class="face" id="front">
+                    <h1>Brisa</h1>
+                </div>
+                <div class="face" id="bak">
+                    <p>Vamos viver no Nordeste, Anarina.
+                        Deixarei aqui meus amigos, meus livros, minhas riquezas, minha vergonha.
+                        Deixarás aqui tua filha, tua avó, teu marido, teu amante.
+                        Aqui faz muito calor.
+                        No Nordeste faz calor também.
+                        Mas lá tem brisa:
+                        Vamos viver de brisa, Anarina.<br>
+    
+                        
+                    </p>
+                    <div id="autor">
+                    <a id="nome"href="https://pt.wikipedia.org/wiki/Manuel_Bandeira"><img id="autor"src="img/manuel-bandeira.jpg"alt="foto da  Manuel Bandeira">-Manuel Bandeira</a>
+                    <button id="b"><a href="https://pt.wikipedia.org/wiki/Manuel_Bandeira">ver mais sobre o autor</a></button>
+                   </div>
+                </div>
+            </div>-->
+
+
+
+
+
+
+
+    </section>
