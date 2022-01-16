@@ -290,9 +290,10 @@ font-weight: bold;
 
 }
 .cardee{
-    margin: 1.5ch 10ch;
+    position: relative;
+    margin: 1ch 1ch;
     background: #e7e7e7;
-    width: 40ch;
+    width: 45ch;
     height: 65ch;
     color: #f15;
     box-shadow:0 5px 20px rgba(219, 9, 9, 0.5);
@@ -465,7 +466,8 @@ font-weight: bold;
     }
     .intro h1{
         font-size: 95px;
-    }/*MAS SOBRE AMRO---------------------------------------------------------*/
+    }
+    /*------------------------------MAS SOBRE AMRO---------------------------------------------------------*/
     #amor{
         display: block;
         flex-direction:column;
