@@ -186,7 +186,7 @@ font-weight: bold;
     width: 37ch;
     backdrop-filter: blur(25px);
     border-radius: 20px;
-    border: 1px solid rgba(255,255, 255,0.5);
+    border: 0.5px solid #fff;
     
     display: flex;
     justify-content: center;
